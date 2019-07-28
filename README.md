@@ -1,1 +1,1 @@
-https://github.com/stoneren0316/TimePlan/blob/master/gragh/gragh.jpg
+![ͼʾ](https://github.com/stoneren0316/TimePlan/blob/master/gragh/gragh.jpg)
