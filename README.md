@@ -12,6 +12,10 @@
 
 由此：
 采用三个人，三个起点，三个终点，三个tunnel的数据做测试，示意图如下：
+一个人从s1前往d7，
+一个人从s2前往d8，
+一个人从s3前往d9，
+每个人都会经过两个tunnel
 
 ![图示](https://github.com/stoneren0316/TimePlan/blob/master/gragh/gragh.jpg)
 
