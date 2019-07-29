@@ -1,10 +1,8 @@
-// bintong.cpp : 定义控制台应用程序的入口点。
+// main.cpp : 定义控制台应用程序的入口点。
 //
-
-#include "stdafx.h"
 #include "TPGragh.h"
 
-int _tmain(int argc, _TCHAR* argv[])
+int main(int argc, char* argv[])
 {
 	TPGragh Gragh;
 
