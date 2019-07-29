@@ -294,11 +294,24 @@ public:
 	void PrintGragh() const
 	{
 		std::cout << "The total num of nodes of the gragh is " << m_Nodes.size() << std::endl;
+
+		std::vector<TPNode*>::const_iterator c_it = m_Nodes.begin();
+		for (; c_it != m_Nodes.end(); ++c_it)
+		{
+			std::cout << "Node ID is " << (*c_it)->NodeID << std::endl;
+		}
+
 		std::cout << "The total num of edges of the gragh is " << m_Edges.size() << std::endl;
 	}
+
 	void PrintPath(const TPPath& Path) const
 	{
 		std::cout << "depart time is " << Path.m_RetDepartTime << std::endl;
+		for (int i = 0; i < Path.m_Nodes.size(); i++)
+		{
+			std::cout << "The end time of Node " << Path.m_Nodes[i]->NodeID << " is: " << Path.m_EndTimes[i] << std::endl;
+		}
+		std::cout << std::endl;
 	}
 
 
