@@ -33,4 +33,4 @@ g++ main.cpp
 
 ### 测试结果：
 
-![图示](https://github.com/stoneren0316/TimePlan/blob/master/gragh/RetPrint.jpg)
+![图示](https://github.com/stoneren0316/TimePlan/blob/master/gragh/RetPrint.JPG)
