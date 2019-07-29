@@ -77,11 +77,7 @@ public:
 	}
 	~TPPath()
 	{
-		std::vector<TPNode*>::iterator it = m_Nodes.begin();
-		for (; it != m_Nodes.end(); ++it) 
-		{
-			delete (*it);
-		}
+
 	}
 	//路径经过的Nodes
 	std::vector<TPNode*> m_Nodes;
@@ -147,7 +143,11 @@ public:
 	}
 	virtual ~TPGragh()
 	{
-
+		std::vector<TPNode*>::iterator it = m_Nodes.begin();
+		for (; it != m_Nodes.end(); ++it) 
+		{
+			delete (*it);
+		}
 	}
 
 protected:
